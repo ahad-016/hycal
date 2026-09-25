@@ -7,18 +7,19 @@ echo   Pushing Hycal Aircon Website to GitHub
 echo   Target: https://github.com/ahad-016/hycal.git
 echo ========================================================
 echo.
-git push -u origin main
+git push -f -u origin main
 echo.
 if %ERRORLEVEL% equ 0 (
     echo ========================================================
-    echo  [SUCCESS] Repository pushed to GitHub successfully!
-    echo  View it here: https://github.com/ahad-016/hycal
+    echo  [SUCCESS] All code pushed to GitHub successfully!
+    echo  Vercel will now automatically build and deploy!
+    echo  View repository: https://github.com/ahad-016/hycal
     echo ========================================================
 ) else (
     echo.
     echo [NOTE]:
-    echo When GitHub opens in your browser, click 'Sign in with your browser'
-    echo and authorize Git to push to your repository.
+    echo When GitHub prompts you in your browser, click 'Sign in with browser'
+    echo and click 'Authorize' to grant Git write access.
 )
 echo.
 pause

@@ -1,8 +1,10 @@
 {
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/((?!src|public|favicon.svg|robots.txt|sitemap.xml).*)",
+      "source": "/((?!assets|vendor|favicon.svg|robots.txt|sitemap.xml).*)",
       "destination": "/index.html"
     }
   ],
