@@ -1,0 +1,20 @@
+# Node & Dependencies
+node_modules/
+dist/
+build/
+.cache/
+
+# Environment & Logs
+*.log
+.env
+.env.local
+
+# OS Generated
+Thumbs.db
+.DS_Store
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
