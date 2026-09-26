@@ -4,7 +4,7 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/((?!assets|vendor|favicon.svg|robots.txt|sitemap.xml).*)",
+      "source": "/((?!assets|vendor|favicon.svg|og-image.svg|robots.txt|sitemap.xml).*)",
       "destination": "/index.html"
     }
   ],
